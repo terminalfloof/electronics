@@ -15,9 +15,9 @@
 CY_ISR_PROTO(DacSet);
 
 float theta = 0;
-float tone = 4000;
 uint8_t DacCode = 0;
 uint8_t EnableOutput = 0;
+uint8_t UpDown = 0;
 
 int main()
 {
@@ -36,7 +36,8 @@ int main()
     for(;;)
     {
         /* Place your application code here. */
-        if (Pin_2_Read() == 1)
+        EnableOutput = 1;
+        /*if (Pin_2_Read() == 1)
         {
             EnableOutput = 1;
             tone = 5000;
@@ -45,24 +46,57 @@ int main()
           //blah   
         } else
         {
-            EnableOutput = 0;   
-        }
+            EnableOutput = 1;//fixme;   
+        }*/
     }
+}
+
+float frequency = 440;
+
+float toneFromFreq(float freq) {
+    // m = 0.1412
+    // b = -23.333
+
+    // inverse
+
+    return 7.25 * freq + 126;
 }
 
 void DacSet() // runs at 50 kHz
 {
+    Pin_1_Write(1);
+    //CyDelayUs(10);
     if (EnableOutput)
     {
-        tone = tone - 1;
-        if (tone < 1000)
-            tone = 4000;
-        theta += 6.283185307 * tone * 0.00002;
-        if (theta > 6.283185307)
-            theta -= 6.283185307;
-        DacCode = 127 + 120 * sin((double)theta);
+        // tone = tone - .01;
+        // if (tone < 200)
+        //     tone = 400;
+        // //tone = 1000;
+        // /*theta += 2 * tone * 0.00002;
+        // if (theta > 6.283185307)
+        //     theta -= 6.283185307;
+        // //DacCode = 127 + 120 * sin((double)theta);
+        // DacCode = 127 + */
+        // if (UpDown)
+        //     theta += tone * 0.000051;
+        // else
+        //     theta -= tone * 0.000051;
+        // if(theta > 0.5)
+        //     UpDown = 0;
+        // if(theta < -0.5)
+        //     UpDown = 1;
+
+        // adjust theta based off of the theoretical run speed
+        theta += 6.28 * toneFromFreq(frequency) * (1/50000.0);
+        // theta += 6.28 * 8000 * (1/50000.0);
+        if (theta > 6.28) theta = 0;
+
+        // DacCode = 127 + 240 * theta;
+        DacCode = 127 + 120 * sin(theta);
+        
         VDAC8_1_SetValue(DacCode);
     }
+    Pin_1_Write(0);
 }
 
 /* [] END OF FILE */

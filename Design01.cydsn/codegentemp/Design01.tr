@@ -57,14 +57,12 @@ Port Name  Setup to Clk  Clock Name:Phase
 -----------------------3.2::Clock to Out
 ----------------------------------------
 
-Port Name     Clock to Out  Clock Name:Phase   
-------------  ------------  -----------------  
-Pin_1(0)_PAD  20444         Clock_1(routed):R  
-Pin_1(0)_PAD  20444         Clock_1(routed):F  
+Port Name  Clock to Out  Clock Name:Phase  
+---------  ------------  ----------------  
 
 
-                         3.3::Pad to Pad
-                         ---------------
+-------------------------3.3::Pad to Pad
+----------------------------------------
 
 Port Name (Source)  Port Name (Destination)  Delay  
 ------------------  -----------------------  -----  

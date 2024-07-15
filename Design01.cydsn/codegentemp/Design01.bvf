@@ -12,7 +12,6 @@ Verifying bitstream.
 ---------Processing bitstream.---------
 
 Utilized "dsi_hc@[DSI=(1,1)][side=bottom]"
-Utilized "dsi_hc@[DSI=(1,4)][side=bottom]"
 Utilized "dsi_hc@[DSI=(1,5)][side=bottom]"
 
 
