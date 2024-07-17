@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2024-07-15T20:42:03Z")
+ (DATE "2024-07-17T20:49:03Z")
  (DESIGN "Design01")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -14,9 +14,11 @@
    (ABSOLUTE
     (INTERCONNECT ClockBlock.clk_bus_glb isr_1.clock (0.000:0.000:0.000))
     (INTERCONNECT ClockBlock.dclk_0 isr_1.interrupt (4.913:4.913:4.913))
-    (INTERCONNECT Pin_1\(0\)_PAD Pin_1\(0\).pad_in (0.000:0.000:0.000))
-    (INTERCONNECT Pin_2\(0\)_PAD Pin_2\(0\).pad_in (0.000:0.000:0.000))
-    (INTERCONNECT Pin_3\(0\)_PAD Pin_3\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_4\(0\).fb Pin_5\(0\).pin_input (9.523:9.523:9.523))
+    (INTERCONNECT Pin_5\(0\).pad_out Pin_5\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_4\(0\)_PAD Pin_4\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_5\(0\).pad_out Pin_5\(0\)_PAD (0.000:0.000:0.000))
+    (INTERCONNECT Pin_5\(0\)_PAD Pin_5\(0\).pad_in (0.000:0.000:0.000))
    )
   )
  )

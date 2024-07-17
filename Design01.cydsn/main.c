@@ -51,52 +51,26 @@ int main()
     }
 }
 
-float frequency = 440;
-
-float toneFromFreq(float freq) {
-    // m = 0.1412
-    // b = -23.333
-
-    // inverse
-
-    return 7.25 * freq + 126;
-}
+float frequencies[] = {262.0, 278.1, 292.8, 314.13, 333.5, 352.3, 376.3, 397.0, 421.4, 444.7, 472.4, 508.2, 532.0};
+int active[13];
 
 void DacSet() // runs at 50 kHz
 {
-    Pin_1_Write(1);
     //CyDelayUs(10);
     if (EnableOutput)
     {
-        // tone = tone - .01;
-        // if (tone < 200)
-        //     tone = 400;
-        // //tone = 1000;
-        // /*theta += 2 * tone * 0.00002;
-        // if (theta > 6.283185307)
-        //     theta -= 6.283185307;
-        // //DacCode = 127 + 120 * sin((double)theta);
-        // DacCode = 127 + */
-        // if (UpDown)
-        //     theta += tone * 0.000051;
-        // else
-        //     theta -= tone * 0.000051;
-        // if(theta > 0.5)
-        //     UpDown = 0;
-        // if(theta < -0.5)
-        //     UpDown = 1;
+        int tone;
 
         // adjust theta based off of the theoretical run speed
-        theta += 6.28 * toneFromFreq(frequency) * (1/50000.0);
+        theta += 2 * 3.14159 * frequencies[(int) (tone / 1000)] * (1/15790.0);
         // theta += 6.28 * 8000 * (1/50000.0);
-        if (theta > 6.28) theta = 0;
+        if (theta > (2 * 3.14159)) theta = 0;
 
         // DacCode = 127 + 240 * theta;
-        DacCode = 127 + 120 * sin(theta);
+        DacCode = 127 + 120 * sinf(theta);
         
         VDAC8_1_SetValue(DacCode);
     }
-    Pin_1_Write(0);
 }
 
 /* [] END OF FILE */

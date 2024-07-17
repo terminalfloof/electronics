@@ -30,15 +30,12 @@
   <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\DacOutput_aliases.h" value="NONE;DacOutput" />
   <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\DacOutput.c" value="ARM_C_FILE;DacOutput" />
   <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\DacOutput.h" value="NONE;DacOutput" />
-  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_1_aliases.h" value="NONE;Pin_1" />
-  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_1.c" value="ARM_C_FILE;Pin_1" />
-  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_1.h" value="NONE;Pin_1" />
-  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_2_aliases.h" value="NONE;Pin_2" />
-  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_2.c" value="ARM_C_FILE;Pin_2" />
-  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_2.h" value="NONE;Pin_2" />
-  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_3_aliases.h" value="NONE;Pin_3" />
-  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_3.c" value="ARM_C_FILE;Pin_3" />
-  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_3.h" value="NONE;Pin_3" />
+  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_4_aliases.h" value="NONE;Pin_4" />
+  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_4.c" value="ARM_C_FILE;Pin_4" />
+  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_4.h" value="NONE;Pin_4" />
+  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_5_aliases.h" value="NONE;Pin_5" />
+  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_5.c" value="ARM_C_FILE;Pin_5" />
+  <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\Pin_5.h" value="NONE;Pin_5" />
   <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\cycodeshareimport.ld" value="NONE;" />
   <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\cycodeshareexport.ld" value="NONE;" />
   <file name="C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\codegentemp\cycodeshareimport.scat" value="NONE;" />
