@@ -1,0 +1,339 @@
+stash@{0}: WIP on main: f61444b tone generation pt 2
+
+[1mdiff --git a/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/BUILD.log b/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/BUILD.log[m
+[1mindex 92a4a3d..6e3320e 100644[m
+[1m--- a/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/BUILD.log[m
+[1m+++ b/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/BUILD.log[m
+[36m@@ -1,4 +1,4 @@[m
+[31m---------------- Build Started: 07/17/2024 16:48:58 Project: Design01, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------[m
+[32m+[m[32m--------------- Build Started: 07/17/2024 17:22:52 Project: Design01, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------[m[41m[m
+ cydsfit.exe -.appdatapath "C:\Users\floof\AppData\Local\Cypress Semiconductor\PSoC Creator\3.3" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p "C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\Design01.cyprj" -d CY8C5888LTI-LP097 -s "C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\Generated_Source\PSoC5" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE[m
+ Elaborating Design...[m
+ HDL Generation ...[m
+[36m@@ -19,6 +19,10 @@[m [mAPI Generation ...[m
+ Dependency Generation ...[m
+ Clean Temporary Files ...[m
+ arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_493\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\main.c -o .\CortexM3\ARM_GCC_493\Debug\main.o[m
+[32m+[m[32m.\main.c: In function 'DacSet':[m[41m[m
+[32m+[m[32m.\main.c:65:44: warning: 'tone' may be used uninitialized in this function [-Wmaybe-uninitialized][m[41m[m
+[32m+[m[32m         theta += 2 * 3.14159 * frequencies[(int) (tone / 1000)] * (1/15790.0);[m[41m[m
+[32m+[m[32m                                            ^[m[41m[m
+ arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_493\Debug/cyfitter_cfg.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC5\cyfitter_cfg.c -o .\CortexM3\ARM_GCC_493\Debug\cyfitter_cfg.o[m
+ arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_493\Debug/cymetadata.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC5\cymetadata.c -o .\CortexM3\ARM_GCC_493\Debug\cymetadata.o[m
+ arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_493\Debug/VDAC8_1.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC5\VDAC8_1.c -o .\CortexM3\ARM_GCC_493\Debug\VDAC8_1.o[m
+[36m@@ -42,5 +46,5 @@[m [marm-none-eabi-gcc.exe -Wl,--start-group -o .\CortexM3\ARM_GCC_493\Debug\Design01[m
+ cyelftool.exe -C "C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\CortexM3\ARM_GCC_493\Debug\Design01.elf" --flash_row_size 256 --flash_size 262144[m
+ cyelftool.exe -S "C:\Users\floof\Documents\PSoC Creator\electronics\Design01.cydsn\CortexM3\ARM_GCC_493\Debug\Design01.elf"[m
+ Flash used: 10240 of 262144 bytes (3.9%).[m
+[31m-SRAM used: 2549 of 65536 bytes (3.9%). Stack: 2048 bytes. Heap: 128 bytes.[m
+[31m---------------- Build Succeeded: 07/17/2024 16:49:08 ---------------[m
+[32m+[m[32mSRAM used: 2541 of 65536 bytes (3.9%). Stack: 2048 bytes. Heap: 128 bytes.[m[41m[m
+[32m+[m[32m--------------- Build Succeeded: 07/17/2024 17:23:01 ---------------[m[41m[m
+[1mdiff --git a/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/Clock_1.lst b/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/Clock_1.lst[m
+[1mindex e2d52b7..6135f4f 100644[m
+[1m--- a/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/Clock_1.lst[m
+[1m+++ b/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/Clock_1.lst[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 1[m[41m[m
+ [m
+ [m
+    1              		.syntax unified[m
+[36m@@ -58,7 +58,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+   29:.\Generated_Source\PSoC5/Clock_1.c **** [m
+   30:.\Generated_Source\PSoC5/Clock_1.c **** /*******************************************************************************[m
+   31:.\Generated_Source\PSoC5/Clock_1.c **** * Function Name: Clock_1_Start[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 2[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 2[m[41m[m
+ [m
+ [m
+   32:.\Generated_Source\PSoC5/Clock_1.c **** ********************************************************************************[m
+[36m@@ -118,7 +118,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+   55:.\Generated_Source\PSoC5/Clock_1.c **** ********************************************************************************[m
+   56:.\Generated_Source\PSoC5/Clock_1.c **** *[m
+   57:.\Generated_Source\PSoC5/Clock_1.c **** * Summary:[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 3[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 3[m[41m[m
+ [m
+ [m
+   58:.\Generated_Source\PSoC5/Clock_1.c **** *  Stops the clock and returns immediately. This API does not require the[m
+[36m@@ -178,7 +178,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+   81:.\Generated_Source\PSoC5/Clock_1.c **** [m
+   82:.\Generated_Source\PSoC5/Clock_1.c **** /*******************************************************************************[m
+   83:.\Generated_Source\PSoC5/Clock_1.c **** * Function Name: Clock_1_StopBlock[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 4[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 4[m[41m[m
+ [m
+ [m
+   84:.\Generated_Source\PSoC5/Clock_1.c **** ********************************************************************************[m
+[36m@@ -238,7 +238,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  116:.\Generated_Source\PSoC5/Clock_1.c **** #endif /* Clock_1__CFG3 */[m
+  117:.\Generated_Source\PSoC5/Clock_1.c **** [m
+  118:.\Generated_Source\PSoC5/Clock_1.c ****         /* Clear mask of bus clock. */[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 5[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 5[m[41m[m
+ [m
+ [m
+  119:.\Generated_Source\PSoC5/Clock_1.c ****         CLK_DIST_BCFG2 &= (uint8)(~BCFG2_MASK);[m
+[36m@@ -298,7 +298,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  147              		.loc 1 136 0[m
+  148 0056 7F33     		adds	r3, r3, #127[m
+  149 0058 1A80     		strh	r2, [r3]	@ movhi[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 6[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 6[m[41m[m
+ [m
+ [m
+  150              	.LVL1:[m
+[36m@@ -358,7 +358,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  161:.\Generated_Source\PSoC5/Clock_1.c ****         Clock_1_CLKSTBY &= (uint8)(~Clock_1_CLKSTBY_MASK);[m
+  180              		.loc 1 161 0[m
+  181 0002 064A     		ldr	r2, .L15[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 7[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 7[m[41m[m
+ [m
+ [m
+  182 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2[m
+[36m@@ -418,7 +418,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  190:.\Generated_Source\PSoC5/Clock_1.c **** *  None[m
+  191:.\Generated_Source\PSoC5/Clock_1.c **** *[m
+  192:.\Generated_Source\PSoC5/Clock_1.c **** *******************************************************************************/[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 8[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 8[m[41m[m
+ [m
+ [m
+  193:.\Generated_Source\PSoC5/Clock_1.c **** void Clock_1_SetDividerRegister(uint16 clkDivider, uint8 restart)[m
+[36m@@ -478,7 +478,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  247:.\Generated_Source\PSoC5/Clock_1.c ****                     CLK_DIST_LD = CYCLK_LD_DISABLE|CYCLK_LD_SYNC_EN|CYCLK_LD_LOAD;[m
+  248:.\Generated_Source\PSoC5/Clock_1.c **** [m
+  249:.\Generated_Source\PSoC5/Clock_1.c ****                     /* Wait for clock to be disabled */[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 9[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 9[m[41m[m
+ [m
+ [m
+  250:.\Generated_Source\PSoC5/Clock_1.c ****                     while ((CLK_DIST_LD & CYCLK_LD_LOAD) != 0u) { }[m
+[36m@@ -538,7 +538,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  299:.\Generated_Source\PSoC5/Clock_1.c ****     return CY_GET_REG16(Clock_1_DIV_PTR);[m
+  213              		.loc 1 299 0[m
+  214 0000 014B     		ldr	r3, .L18[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 10[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 10[m[41m[m
+ [m
+ [m
+  215 0002 1888     		ldrh	r0, [r3][m
+[36m@@ -598,7 +598,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  235              		.cfi_startproc[m
+  236              		@ args = 0, pretend = 0, frame = 0[m
+  237              		@ frame_needed = 0, uses_anonymous_args = 0[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 11[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 11[m[41m[m
+ [m
+ [m
+  238              		@ link register save eliminated.[m
+[36m@@ -658,7 +658,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  363:.\Generated_Source\PSoC5/Clock_1.c **** * Returns:[m
+  364:.\Generated_Source\PSoC5/Clock_1.c **** *  None[m
+  365:.\Generated_Source\PSoC5/Clock_1.c **** *[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 12[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 12[m[41m[m
+ [m
+ [m
+  366:.\Generated_Source\PSoC5/Clock_1.c **** *******************************************************************************/[m
+[36m@@ -718,7 +718,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  389:.\Generated_Source\PSoC5/Clock_1.c **** {[m
+  294              		.loc 1 389 0[m
+  295              		.cfi_startproc[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 13[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 13[m[41m[m
+ [m
+ [m
+  296              		@ args = 0, pretend = 0, frame = 0[m
+[36m@@ -778,7 +778,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  420:.\Generated_Source\PSoC5/Clock_1.c **** {[m
+  421:.\Generated_Source\PSoC5/Clock_1.c ****     uint16 currDiv = Clock_1_GetDividerRegister();[m
+  422:.\Generated_Source\PSoC5/Clock_1.c ****     uint8 oldSrc = Clock_1_GetSourceRegister();[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 14[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 14[m[41m[m
+ [m
+ [m
+  423:.\Generated_Source\PSoC5/Clock_1.c **** [m
+[36m@@ -838,7 +838,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  329 0004 00F00700 		and	r0, r0, #7[m
+  330 0008 7047     		bx	lr[m
+  331              	.L31:[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 15[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 15[m[41m[m
+ [m
+ [m
+  332 000a 00BF     		.align	2[m
+[36m@@ -898,7 +898,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  205:.\Generated_Source\PSoC5/Clock_1.c ****         {[m
+  379              		.loc 1 205 0 discriminator 2[m
+  380 0020 85B9     		cbnz	r5, .L34[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 16[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 16[m[41m[m
+ [m
+ [m
+  381              	.L35:[m
+[36m@@ -958,7 +958,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  425 0058 0B78     		ldrb	r3, [r1]	@ zero_extendqisi2[m
+  426 005a 03F07F03 		and	r3, r3, #127[m
+  427 005e 0B70     		strb	r3, [r1][m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 17[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 17[m[41m[m
+ [m
+ [m
+  243:.\Generated_Source\PSoC5/Clock_1.c ****                 {[m
+[36m@@ -1018,7 +1018,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  472              	.LVL19:[m
+  473              	.L43:[m
+  474 00a4 0122     		movs	r2, #1[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 18[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 18[m[41m[m
+ [m
+ [m
+  475              	.LVL20:[m
+[36m@@ -1078,7 +1078,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  524 0000 38B5     		push	{r3, r4, r5, lr}[m
+  525              		.cfi_def_cfa_offset 16[m
+  526              		.cfi_offset 3, -16[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 19[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 19[m[41m[m
+ [m
+ [m
+  527              		.cfi_offset 4, -12[m
+[36m@@ -1138,7 +1138,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  438:.\Generated_Source\PSoC5/Clock_1.c ****             (Clock_1_MOD_SRC & (uint8)(~Clock_1_SRC_SEL_MSK)) | clkSource;[m
+  569              		.loc 1 438 0[m
+  570 0036 03F0F803 		and	r3, r3, #248[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 20[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 20[m[41m[m
+ [m
+ [m
+  571 003a 1C43     		orrs	r4, r4, r3[m
+[36m@@ -1198,7 +1198,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  622 0034 02       		.byte	0x2[m
+  623 0035 05       		.byte	0x5[m
+  624 0036 1C000000 		.4byte	.LASF2[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 21[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 21[m[41m[m
+ [m
+ [m
+  625 003a 02       		.uleb128 0x2[m
+[36m@@ -1258,7 +1258,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  679 00a0 A4000000 		.4byte	0xa4[m
+  680 00a4 05       		.uleb128 0x5[m
+  681 00a5 6B000000 		.4byte	0x6b[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 22[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 22[m[41m[m
+ [m
+ [m
+  682 00a9 04       		.uleb128 0x4[m
+[36m@@ -1318,7 +1318,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  736 0125 01       		.byte	0x1[m
+  737 0126 9D       		.byte	0x9d[m
+  738 0127 6B000000 		.4byte	0x6b[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 23[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 23[m[41m[m
+ [m
+ [m
+  739 012b 01       		.uleb128 0x1[m
+[36m@@ -1378,7 +1378,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  793 01a9 D5020000 		.4byte	.LASF26[m
+  794 01ad 01       		.byte	0x1[m
+  795 01ae D001     		.2byte	0x1d0[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 24[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 24[m[41m[m
+ [m
+ [m
+  796 01b0 6B000000 		.4byte	0x6b[m
+[36m@@ -1438,7 +1438,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  850 0234 01       		.byte	0x1[m
+  851 0235 A301     		.2byte	0x1a3[m
+  852 0237 00000000 		.4byte	.LFB9[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 25[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 25[m[41m[m
+ [m
+ [m
+  853 023b 5C000000 		.4byte	.LFE9-.LFB9[m
+[36m@@ -1498,7 +1498,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  907 0016 0B       		.uleb128 0xb[m
+  908 0017 0B       		.uleb128 0xb[m
+  909 0018 3E       		.uleb128 0x3e[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 26[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 26[m[41m[m
+ [m
+ [m
+  910 0019 0B       		.uleb128 0xb[m
+[36m@@ -1558,7 +1558,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  964 004f 18       		.uleb128 0x18[m
+  965 0050 9742     		.uleb128 0x2117[m
+  966 0052 19       		.uleb128 0x19[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 27[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 27[m[41m[m
+ [m
+ [m
+  967 0053 00       		.byte	0[m
+[36m@@ -1618,7 +1618,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  1021 008a 03       		.uleb128 0x3[m
+  1022 008b 0E       		.uleb128 0xe[m
+  1023 008c 3A       		.uleb128 0x3a[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 28[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 28[m[41m[m
+ [m
+ [m
+  1024 008d 0B       		.uleb128 0xb[m
+[36m@@ -1678,7 +1678,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  1078 00c5 19       		.uleb128 0x19[m
+  1079 00c6 01       		.uleb128 0x1[m
+  1080 00c7 13       		.uleb128 0x13[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 29[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 29[m[41m[m
+ [m
+ [m
+  1081 00c8 00       		.byte	0[m
+[36m@@ -1738,7 +1738,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  1135 0100 00       		.byte	0[m
+  1136 0101 00       		.byte	0[m
+  1137 0102 11       		.uleb128 0x11[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 30[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 30[m[41m[m
+ [m
+ [m
+  1138 0103 2E       		.uleb128 0x2e[m
+[36m@@ -1798,7 +1798,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  1192              	.Ldebug_loc0:[m
+  1193              	.LLST0:[m
+  1194 0000 2A000000 		.4byte	.LVL0[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 31[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 31[m[41m[m
+ [m
+ [m
+  1195 0004 5A000000 		.4byte	.LVL1[m
+[36m@@ -1858,7 +1858,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  1249 0089 0400     		.2byte	0x4[m
+  1250 008b F3       		.byte	0xf3[m
+  1251 008c 01       		.uleb128 0x1[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 32[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 32[m[41m[m
+ [m
+ [m
+  1252 008d 51       		.byte	0x51[m
+[36m@@ -1918,7 +1918,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  1306 0111 00000000 		.4byte	0[m
+  1307 0115 00000000 		.4byte	0[m
+  1308              	.LLST8:[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 33[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 33[m[41m[m
+ [m
+ [m
+  1309 0119 0A000000 		.4byte	.LVL25[m
+[36m@@ -1978,7 +1978,7 @@[m [mARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 1[m
+  1363 0038 00000000 		.4byte	.LFB8[m
+  1364 003c 10000000 		.4byte	.LFE8[m
+  1365 0040 00000000 		.4byte	.LFB10[m
+[31m-ARM GAS  C:\Users\floof\AppData\Local\Temp\ccFmmQtj.s 			page 34[m
+[32m+[m[32mARM GAS  C:\Users\floof\AppData\Local\Temp\ccA9Qbxr.s 			page 34[m[41m[m
+ [m
+ [m
+  1366 0044 10000000 		.4byte	.LFE10[m
+[36m@@ -2038,

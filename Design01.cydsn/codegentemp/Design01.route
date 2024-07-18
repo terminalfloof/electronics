@@ -18,23 +18,3 @@ net Net_18_local
 	switch ":interrupt_idmux_0.interrupt_idmux_0__out==>:interrupt_0.interrupt"
 	term   ":interrupt_0.interrupt"
 end Net_18_local
-net Net_41
-	term   ":ioport3:pin0.fb"
-	switch ":ioport3:pin0.fb==>Stub-:dsiswitch_bottom@[DSI=(1,0)][side=bottom]:dsihc_bottom:v0+:dsiswitch_bottom@[DSI=(1,0)][side=bottom]:dsihc_bottom:v2"
-	switch "OStub-:dsiswitch_bottom@[DSI=(1,0)][side=bottom]:dsihc_bottom:v0+:dsiswitch_bottom@[DSI=(1,0)][side=bottom]:dsihc_bottom:v2"
-	switch ":dsiswitch_bottom@[DSI=(1,0)][side=bottom]:dsihc_bottom:2,85"
-	switch ":hvswitch@[UDB=(3,0)][side=left]:2,85_f"
-	switch ":hvswitch@[UDB=(3,0)][side=left]:vseg_2_top_b"
-	switch ":hvswitch@[UDB=(2,0)][side=left]:vseg_2_top_b"
-	switch ":hvswitch@[UDB=(1,0)][side=left]:vseg_2_top_b"
-	switch ":hvswitch@[UDB=(0,0)][side=left]:2,15_b"
-	switch ":hvswitch@[UDB=(0,0)][side=left]:hseg_15_f"
-	switch ":hvswitch@[UDB=(0,1)][side=left]:hseg_15_f"
-	switch ":hvswitch@[UDB=(0,2)][side=left]:hseg_15_f"
-	switch ":hvswitch@[UDB=(0,3)][side=left]:hseg_15_f"
-	switch ":dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:82,15_f"
-	switch "IStub-:dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:v80+:dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:v82+:dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:v84"
-	switch "Stub-:dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:v80+:dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:v82+:dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:v84==>:ioport2:inputs1_mux.in_0"
-	switch ":ioport2:inputs1_mux.pin1__pin_input==>:ioport2:pin1.pin_input"
-	term   ":ioport2:pin1.pin_input"
-end Net_41

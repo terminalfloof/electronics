@@ -52,7 +52,6 @@ int main()
 }
 
 float frequencies[] = {262.0, 278.1, 292.8, 314.13, 333.5, 352.3, 376.3, 397.0, 421.4, 444.7, 472.4, 508.2, 532.0};
-int active[13];
 
 void DacSet() // runs at 50 kHz
 {
@@ -61,13 +60,51 @@ void DacSet() // runs at 50 kHz
     {
         int tone;
 
-        // adjust theta based off of the theoretical run speed
-        theta += 2 * 3.14159 * frequencies[(int) (tone / 1000)] * (1/15790.0);
-        // theta += 6.28 * 8000 * (1/50000.0);
-        if (theta > (2 * 3.14159)) theta = 0;
+        int active[] = {
+            C_Read() > 0 ? 1 : 0,
+            CS_Read() > 0 ? 1 : 0,
+            D_Read() > 0 ? 1 : 0,
+            DS_Read() > 0 ? 1 : 0,
+            E_Read() > 0 ? 1 : 0,
+            F_Read() > 0 ? 1 : 0,
+            FS_Read() > 0 ? 1 : 0,
+            G_Read() > 0 ? 1 : 0,
+            GS_Read() > 0 ? 1 : 0,
+            A_Read() > 0 ? 1 : 0,
+            AS_Read() > 0 ? 1 : 0,
+            B_Read() > 0 ? 1 : 0,
+            UC_Read() > 0 ? 1 : 0
+        };
 
-        // DacCode = 127 + 240 * theta;
-        DacCode = 127 + 120 * sinf(theta);
+        float previousTheta = theta;
+        DacCode = 127;
+        // adjust theta based off of the theoretical run speed
+        int i = 0;
+        for (i = 0; i < 13; i++) {
+            if (active[i]) {
+                theta = previousTheta;
+                theta += 2 * 3.14159 * frequencies[i] * (1/16000.0);
+                if (theta > 2 * 3.14159) theta -= 2 * 3.14159;
+                DacCode += 120 * sin(theta);
+            }
+        }
+
+        // DacCode += 120 * sin(theta * frequencies[4]);
+
+        // int count = 1;
+        // int i = 0;
+        // for (i = 0; i < 13; i++) if (active[i]) count++;
+        // if (count == 0) return;
+
+        // int i = 0;
+        // for (i = 0; i < 13; i++) {
+        //     if (active[i]) {
+        //         theta *= frequencies[i];
+        //         if 
+        //     }
+        // }
+
+        // theta += 6.28 * 8000 * (1/50000.0);
         
         VDAC8_1_SetValue(DacCode);
     }
