@@ -1,4 +1,64 @@
-C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/cyfitter_cfg.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/A.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/A.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/A.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/A_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/A.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/A.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/A_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/AS.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/AS.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/AS.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/AS_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/AS.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/AS.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/AS_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/B.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/B.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/B.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/B_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/B.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/B.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/B_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/C.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/C.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/C.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/C_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/C.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/C.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/C_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/CS.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CS.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CS.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CS_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CS.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CS.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CS_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/Clock_1.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/Clock_1.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/Clock_1.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/Clock_1.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/Clock_1.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/Cm3Start.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/Cm3Start.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/cyapicallbacks.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/Cm3Start.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyDmac.h : 
 
 C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h : 
 
@@ -8,15 +68,127 @@ C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Sour
 
 C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h : 
 
-C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h : 
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
 
-C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/cyapicallbacks.h : 
 
-C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/CyDmac.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyDmac.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyDmac.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/CyFlash.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/CyLib.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/CySpc.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/D.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/D.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/D.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/D_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/D.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/D.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/D_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/DS.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DS.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DS.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DS_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DS.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DS.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DS_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/DacOutput.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DacOutput.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DacOutput.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DacOutput_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DacOutput.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DacOutput.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/DacOutput_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/E.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/E.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/E.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/E_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/E.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/E.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/E_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/F.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/F.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/F.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/F_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/F.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/F.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/F_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/FS.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/FS.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/FS.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/FS_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/FS.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/FS.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/FS_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/G.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/G.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/G.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/G_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/G.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/G.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/G_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/GS.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/GS.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/GS.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/GS_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/GS.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/GS.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/GS_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/UC.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/UC.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/UC.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/UC_aliases.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/UC.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/UC.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/UC_aliases.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/VDAC8_1.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/VDAC8_1.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/VDAC8_1.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/VDAC8_1.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/VDAC8_1.h : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/VDAC8_1_PM.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/VDAC8_1.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/VDAC8_1_PM.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/VDAC8_1_PM.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/cyPm.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/cyapicallbacks.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/cyfitter_cfg.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
 
 C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c : 
 
-C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/cymetadata.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cymetadata.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h 
 
-C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h : 
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cymetadata.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/cyutils.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyutils.c 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyutils.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/CortexM3/ARM_GCC_493/Debug/isr_1.o : C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/isr_1.c C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/isr_1.h C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/cyapicallbacks.h 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/isr_1.c : 
+
+C:/Users/floof/Documents/PSoC\ Creator/electronics/Design01.cydsn/Generated_Source/PSoC5/isr_1.h : 
 
